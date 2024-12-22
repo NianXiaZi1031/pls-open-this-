@@ -35,7 +35,7 @@ window.onload = function() {
 
 // 用户点击“我已满18岁 进入”按钮，跳转到指定视频链接
 function enterSite() {
-  window.location.href = "https://youtu.be/dQw4w9WgXcQ?si=YAEo54UEQ5TQom_O";
+  window.location.href = "https://youtu.be/uHgt8giw1LY?feature=shared";
 }
 
 // 用户点击“我未满18岁 退出此页面”按钮，跳转到指定页面
