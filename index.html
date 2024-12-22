@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>年龄验证</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 图片显示区域 -->
+  <div id="image-container">
+    <img id="random-image" src="" alt="随机图片" class="image">
+  </div>
+
+  <!-- 弹窗部分 -->
+  <div id="popup">
+    <h2>未满18岁禁止阅览！</h2>
+    <button class="btn btn-enter" onclick="enterSite()">我已满18岁 进入</button>
+    <button class="btn btn-exit" onclick="exitSite()">我未满18岁 退出此页面</button>
+    <button class="btn btn-skip" onclick="skipImageLoad()">忽略图片加载</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
